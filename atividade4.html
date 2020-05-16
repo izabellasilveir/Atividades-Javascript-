@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>JavaScript</title>
+  </head>
+
+  <body>
+
+    <input type="text" id="entrada" onfocus="changeBackground1('#FFFF00')" onblur="changeBackground2()">
+    <script>
+
+      function changeBackground1(corFundo) {
+        document.getElementById('entrada').style.background = corFundo
+      }
+
+      function changeBackground2() {
+        var valueOfField = document.getElementById('entrada').value
+        if (valueOfField.length < 3) {
+          document.getElementById('entrada').style.background = '#FF0000';
+        }
+        else {
+          document.getElementById('entrada').style.background = '#00FF00';
+        }   
+      }
+
+    </script>
+  </body>
+</html>

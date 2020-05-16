@@ -74,7 +74,7 @@ sequência deve retornar o valor encontrado.
 calculada dentro da aplicação.
 
 Descrição - Atividade 5:
-1) Crie uma aplicação web contendo um campo para entrada de texto (input text) e dois
+Crie uma aplicação web contendo um campo para entrada de texto (input text) e dois
 botões (buttons), sendo um botão com a descrição "Adicionar" e outro com a descrição
 "Ordenar".
 Após criar os elementos de interação com o usuário acima, crie um Array de nome objetos contendo
